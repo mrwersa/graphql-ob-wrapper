@@ -1,5 +1,5 @@
 {
-    "name": "ob-graphql-wrapper",
+    "name": "graphql-ob-wrapper",
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
