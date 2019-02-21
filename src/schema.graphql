@@ -1,0 +1,12 @@
+type Query {
+  productsWithOverdraft(minOverdraft: Int!, maxEar: Int): []
+}
+
+type Product {
+  brandName: String
+  productName: String
+  tierBandMethod: TierBandMethod
+  tierValueMin: String
+  tierValueMax: String
+  ear: String
+}
